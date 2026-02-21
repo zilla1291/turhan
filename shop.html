@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - TURHAN BEY | Premium Presets & Plugins</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Floating Dock Navigation -->
+    <nav class="floating-dock">
+        <div class="dock-container">
+            <a href="index.html" class="dock-item" title="Home">
+                <span class="dock-icon">⌂</span>
+                <span class="dock-label">Home</span>
+            </a>
+            <a href="shop.html" class="dock-item active" title="Shop">
+                <span class="dock-icon">🛍</span>
+                <span class="dock-label">Shop</span>
+            </a>
+            <a href="downloads.html" class="dock-item" title="Downloads">
+                <span class="dock-icon">⬇</span>
+                <span class="dock-label">Downloads</span>
+            </a>
+            <a href="contact.html" class="dock-item" title="Contact">
+                <span class="dock-icon">✉</span>
+                <span class="dock-label">Contact</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Shop Header -->
+    <section class="shop-header">
+        <div class="container">
+            <h1 class="page-title">Premium Shop</h1>
+            <p class="page-subtitle">Exclusive presets, plugins, and settings from a world-class editor</p>
+        </div>
+    </section>
+
+    <!-- Shop Content -->
+    <section class="shop">
+        <div class="container">
+            <!-- Category Filter -->
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">All Products</button>
+                <button class="filter-btn" data-category="presets">AE Text Presets</button>
+                <button class="filter-btn" data-category="topaz">Topaz Quality</button>
+                <button class="filter-btn" data-category="export">Export Settings</button>
+            </div>
+
+            <!-- Loading Spinner -->
+            <div id="productsLoader" style="text-align: center; padding: 40px;">
+                <div class="loader loader-large"></div>
+                <p class="loader-text">Loading products...</p>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="productsGrid" style="display: none;">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Checkout Modal -->
+    <div class="modal" id="checkoutModal">
+        <div class="modal-content checkout-modal">
+            <button class="modal-close">&times;</button>
+            <h2>Checkout</h2>
+            
+            <div class="checkout-product">
+                <p><strong>Product:</strong> <span id="checkoutProductName"></span></p>
+                <p><strong>Price:</strong> <span id="checkoutPrice"></span></p>
+            </div>
+
+            <div class="payment-methods">
+                <h3>Select Payment Method</h3>
+                <div id="paymentLoader" style="text-align: center; padding: 20px; display: none;">
+                    <div class="loader loader-small"></div>
+                </div>
+                <div class="payment-options" id="paymentOptions">
+                    <!-- Payment options loaded from admin settings -->
+                </div>
+            </div>
+
+            <div class="buyer-info">
+                <input type="text" id="buyerName" placeholder="Your Name" class="form-input">
+                <input type="email" id="buyerEmail" placeholder="Your Email" class="form-input">
+            </div>
+
+            <button class="cta-button" id="confirmPaymentBtn">
+                <span class="button-text">I Have Paid</span>
+                <span class="button-glow"></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 TURHAN BEY. All rights reserved. Premium editing tools for elite creators.</p>
+            <div class="footer-links">
+                <a href="contact.html" class="footer-link">Contact</a>
+                <a href="shop.html" class="footer-link">Shop</a>
+                <a href="downloads.html" class="footer-link">Downloads</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/shop.js"></script>
+</body>
+</html>

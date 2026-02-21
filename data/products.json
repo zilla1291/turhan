@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Cinematic Text Presets",
+        "description": "20 professional text animation presets for After Effects. Includes kinetic typography, glitch effects, and neon animations.",
+        "price": 29.99,
+        "category": "presets"
+    },
+    {
+        "id": 2,
+        "title": "Topaz Color Grading Settings",
+        "description": "15 optimized Topaz Video Enhance AI color grading profiles for cinematic workflows.",
+        "price": 19.99,
+        "category": "topaz"
+    },
+    {
+        "id": 3,
+        "title": "YouTube Export Bundle",
+        "description": "Complete export settings for optimal YouTube quality with multiple resolution options.",
+        "price": 14.99,
+        "category": "export"
+    },
+    {
+        "id": 4,
+        "title": "Advanced Glitch Effects Pack",
+        "description": "10 cinematic glitch effect presets for After Effects. Perfect for music videos and transitions.",
+        "price": 24.99,
+        "category": "presets"
+    },
+    {
+        "id": 5,
+        "title": "Topaz AI Upscaling Configuration",
+        "description": "Professional settings for AI-powered video upscaling while maintaining film grain and quality.",
+        "price": 17.99,
+        "category": "topaz"
+    },
+    {
+        "id": 6,
+        "title": "Multi-Platform Export Pack",
+        "description": "Export settings for YouTube, Vimeo, TikTok, Instagram, Twitch, and broadcast quality formats.",
+        "price": 22.99,
+        "category": "export"
+    },
+    {
+        "id": 7,
+        "title": "Modern Typography Bundle",
+        "description": "25 modern text animation presets with kinetic typography for professional projects.",
+        "price": 34.99,
+        "category": "presets"
+    },
+    {
+        "id": 8,
+        "title": "Topaz Motion Blur Settings",
+        "description": "Specialized settings for creating cinematic motion blur effects in Topaz.",
+        "price": 12.99,
+        "category": "topaz"
+    },
+    {
+        "id": 9,
+        "title": "Streaming Quality Export Settings",
+        "description": "Optimized settings for Twitch, YouTube Live, and other streaming platforms.",
+        "price": 16.99,
+        "category": "export"
+    },
+    {
+        "id": 10,
+        "title": "W8 Editor Workflow Pack",
+        "description": "Complete preset package containing all essential settings used in professional W8 editing workflows.",
+        "price": 49.99,
+        "category": "presets"
+    }
+]

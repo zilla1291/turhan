@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - TURHAN BEY | Premium Presets & Plugins</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Floating Dock Navigation -->
+    <nav class="floating-dock">
+        <div class="dock-container">
+            <a href="index.html" class="dock-item" title="Home">
+                <span class="dock-icon">⌂</span>
+                <span class="dock-label">Home</span>
+            </a>
+            <a href="shop.html" class="dock-item" title="Shop">
+                <span class="dock-icon">🛍</span>
+                <span class="dock-label">Shop</span>
+            </a>
+            <a href="downloads.html" class="dock-item" title="Downloads">
+                <span class="dock-icon">⬇</span>
+                <span class="dock-label">Downloads</span>
+            </a>
+            <a href="contact.html" class="dock-item active" title="Contact">
+                <span class="dock-icon">✉</span>
+                <span class="dock-label">Contact</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <section class="contact-header">
+        <div class="container">
+            <h1 class="page-title">Get In Touch</h1>
+            <p class="page-subtitle">Questions about presets? Business inquiries? Reach out.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h2>Send Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" rows="8" required></textarea>
+                        </div>
+
+                        <button type="submit" class="cta-button">
+                            <span class="button-text">Send Message</span>
+                            <span class="button-glow"></span>
+                        </button>
+                    </form>
+                    <div id="formMessage" class="form-message" style="display: none;"></div>
+                </div>
+                
+                <div class="hire-me-section">
+                    <h2>Interested in Collaborating?</h2>
+                    <p>Let's work together on your next project. Connect with me on social platforms or send a direct message.</p>
+                    <div class="social-buttons">
+                        <a href="https://instagram.com" target="_blank" class="social-btn instagram" title="Instagram">
+                            <span class="social-icon">📸</span>
+                            <span class="social-name">Instagram</span>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-btn twitter" title="Twitter">
+                            <span class="social-icon">𝕏</span>
+                            <span class="social-name">Twitter</span>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="social-btn youtube" title="YouTube">
+                            <span class="social-icon">▶</span>
+                            <span class="social-name">YouTube</span>
+                        </a>
+                        <a href="https://tiktok.com" target="_blank" class="social-btn tiktok" title="TikTok">
+                            <span class="social-icon">♪</span>
+                            <span class="social-name">TikTok</span>
+                        </a>
+                        <a href="https://telegram.me" target="_blank" class="social-btn telegram" title="Telegram">
+                            <span class="social-icon">✈</span>
+                            <span class="social-name">Telegram</span>
+                        </a>
+                        <a href="https://behance.net" target="_blank" class="social-btn behance" title="Behance">
+                            <span class="social-icon">⬛</span>
+                            <span class="social-name">Behance</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 TURHAN BEY. All rights reserved. Premium editing tools for elite creators.</p>
+            <div class="footer-links">
+                <a href="contact.html" class="footer-link">Contact</a>
+                <a href="shop.html" class="footer-link">Shop</a>
+                <a href="downloads.html" class="footer-link">Downloads</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

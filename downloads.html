@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloads - TURHAN BEY | Premium Presets & Plugins</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Floating Dock Navigation -->
+    <nav class="floating-dock">
+        <div class="dock-container">
+            <a href="index.html" class="dock-item" title="Home">
+                <span class="dock-icon">⌂</span>
+                <span class="dock-label">Home</span>
+            </a>
+            <a href="shop.html" class="dock-item" title="Shop">
+                <span class="dock-icon">🛍</span>
+                <span class="dock-label">Shop</span>
+            </a>
+            <a href="downloads.html" class="dock-item active" title="Downloads">
+                <span class="dock-icon">⬇</span>
+                <span class="dock-label">Downloads</span>
+            </a>
+            <a href="contact.html" class="dock-item" title="Contact">
+                <span class="dock-icon">✉</span>
+                <span class="dock-label">Contact</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Downloads Header -->
+    <section class="downloads-header">
+        <div class="container">
+            <h1 class="page-title">Downloads</h1>
+            <p class="page-subtitle">Essential apps, plugins, and preset packs for professional workflows</p>
+        </div>
+    </section>
+
+    <!-- Downloads Content -->
+    <section class="downloads">
+        <div class="container">
+            <div id="downloadsLoader" style="text-align: center; padding: 40px;">
+                <div class="loader loader-large"></div>
+                <p class="loader-text">Loading downloads...</p>
+            </div>
+            <div class="downloads-grid" id="downloadsGrid" style="display: none;">
+                <!-- Download items will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 TURHAN BEY. All rights reserved. Premium editing tools for elite creators.</p>
+            <div class="footer-links">
+                <a href="contact.html" class="footer-link">Contact</a>
+                <a href="shop.html" class="footer-link">Shop</a>
+                <a href="downloads.html" class="footer-link">Downloads</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

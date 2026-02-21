@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favicon Generator</title>
+</head>
+<body>
+    <h1>Favicon Assets Setup</h1>
+    <p>This HTML file shows how to convert the favicon.svg to different formats.</p>
+    
+    <h2>Method 1: Use favicon.svg directly</h2>
+    <p>The favicon.svg is already created and can be used directly in HTML:</p>
+    <pre>&lt;link rel="icon" type="image/svg+xml" href="assets/favicon.svg"&gt;</pre>
+    
+    <h2>Method 2: Convert to ICO and PNG</h2>
+    <p>To generate other favicon formats, you can use online tools:</p>
+    <ul>
+        <li>PNG to ICO converter: https://convertio.co/png-ico/</li>
+        <li>Favicon generator: https://www.favicon-generator.org/</li>
+        <li>Icon converter: https://icoconvert.com/</li>
+    </ul>
+    
+    <h2>Steps to generate favicons:</h2>
+    <ol>
+        <li>Visit an online favicon generator</li>
+        <li>Upload the favicon.svg file</li>
+        <li>Generate favicons in multiple sizes:
+            <ul>
+                <li>favicon.ico (16x16)</li>
+                <li>favicon-16.png (16x16)</li>
+                <li>favicon-32.png (32x32)</li>
+                <li>apple-touch-icon.png (180x180)</li>
+            </ul>
+        </li>
+        <li>Download and save to /assets/ folder</li>
+    </ol>
+    
+    <h2>Temporary Solution:</h2>
+    <p>The website will work fine with just the SVG favicon. Modern browsers support SVG favicons.</p>
+    <p>HTML already includes fallback links for other formats - they'll gracefully degrade if files aren't present.</p>
+</body>
+</html>
